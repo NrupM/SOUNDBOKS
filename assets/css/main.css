@@ -1,0 +1,102 @@
+/* -------------------------- CONTENTS -------------------- 
+
+1.0 --- GLOBAL
+    1.1 ---- BODY / TYPOGRAPHY
+2.0 --- HEADER
+    2.1 --- MAIN NAVIGATION
+3.0 --- BUILDING BLOCKS
+    3.1 --- HERO BLOCK
+5.0 --- FOOTER
+*/
+
+ /* 1.0 ----------------------- GLOBAL ------------------------------ */
+a {
+  text-decoration: none;
+}
+
+ul,
+nav {
+  list-style: none;
+}
+
+li,
+a:hover,
+a:focus {
+  background: none !important;
+  cursor: pointer;
+}
+
+/* 1.1 ------------------------ BODY / TYPOGRAPHY -------------------- */
+/* 2.0 ------------------------ HEADER ------------------------------- */
+/* 2.1 ------------------------ MAIN NAVIGATION ---------------------- */
+nav {
+    background-color: #000;
+    color: white;
+    height: 35px;
+}
+
+.navbar-brand img {
+    color: #fff;
+    height: 20px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: .825rem;
+    text-decoration: uppercase;
+}
+
+.navbar-toggler {
+    color: #fff !important;
+    font-size: 16px;
+}
+
+button .navbar-toggler {
+    height: 15px !important;
+    border: transparent;
+}
+
+
+
+/* 3.0 ------------------------ BUILDING BLOCKS ---------------------- */
+/* 3.1 ------------------------ HERO BLOCK --------------------------- */
+
+.hero .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30rem;
+  background-size: cover;
+  z-index: -4;
+}
+
+.hero-content .row {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+.hero-content .col-12 {
+    margin: 0.625rem 0;
+}
+
+.hero-title {
+    font-family: 'League Spartan';
+    font-style: bold;
+    font-size: 48px;
+    line-height: 60px;
+    align-content: left;
+}
+
+.black-fri-hero {
+    background: linear-gradient(#FD0202, rgba(253, 2, 2, 0));
+    margin-left: 0.625rem;
+}
+
+.black-fri-text {
+    font-family: 'Lato';
+    font-style: medium;
+    font-size: 24px;
+}
