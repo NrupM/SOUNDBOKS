@@ -86,6 +86,7 @@ button .navbar-toggler {
     font-size: 48px;
     line-height: 60px;
     align-content: left;
+    padding-left: 0.625rem;
 }
 
 .black-fri-hero {
