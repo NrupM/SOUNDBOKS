@@ -6,7 +6,9 @@
     2.1 --- MAIN NAVIGATION
 3.0 --- BUILDING BLOCKS
     3.1 --- HERO BLOCK
-5.0 --- FOOTER
+    3.1.a - HERO IMG OVERLAY BLOCK
+    3.2 --- MAIN CONTAINER BLOCK
+4.0 --- FOOTER
 */
 
  /* 1.0 ----------------------- GLOBAL ------------------------------ */
@@ -56,19 +58,15 @@ button .navbar-toggler {
     border: transparent;
 }
 
-
-
 /* 3.0 ------------------------ BUILDING BLOCKS ---------------------- */
 /* 3.1 ------------------------ HERO BLOCK --------------------------- */
 
-.hero .background-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 30rem;
-  background-size: cover;
-  z-index: -4;
+.hero {
+    background-image: url('/Users/marynorthrup/workspace/SOUNDBOKS/assets/images/mountains1.jpg');
+    position: relative;
+    width: 100%;
+    height: 28rem;
+    background-size: cover;
 }
 
 .hero-content .row {
@@ -98,5 +96,30 @@ button .navbar-toggler {
 .black-fri-text {
     font-family: 'Lato';
     font-style: medium;
-    font-size: 24px;
+    font-size: 1.6rem;
+}
+
+.hero-text  p {
+    margin-top: 0.625rem;
+    font-style: normal;
+}
+
+/* 3.1.a ---------------------- HERO IMG OVERLAY -------------------- */
+
+.background-image-overlay img {
+    position: absolute;
+    height: 32%;
+    top: 7rem;
+    left: 7rem;
+}
+
+/* 3.2 ------------------------ MAIN CONTAINER BLOCK ---------------- */
+.main-container {
+    background-color: #EDEDED;
+}
+
+/* 4.0 ------------------------ FOOTER ----------------------------- */
+.footer {
+    background-color: #333333;
+    color: #fff;
 }
