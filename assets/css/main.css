@@ -106,17 +106,93 @@ button .navbar-toggler {
 }
 
 /* 3.1.a ---------------------- HERO IMG OVERLAY -------------------- */
+@media (min-width: 0px) and (max-width: 499px) {
+    .background-image-overlay img {
+        height: 57vw;
+        top: -2rem;
+        left: 45vw;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 580px) {
+    .background-image-overlay img {
+        height: 57vw;
+        top: -4rem;
+        left: 45vw;
+
+    }
+}
+
+@media (min-width: 581px) and (max-width: 646px) {
+    .background-image-overlay img {
+        height: 57vw;
+        top: -7rem;
+        left: 53vw;
+
+    }
+}
+
+@media (min-width: 647px) and (max-width: 767px) {
+    .background-image-overlay img {
+        height: 50vw;
+        top: -7rem;
+        left: 48vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .background-image-overlay img {
+        height: 46vw;
+        top: -6rem;
+        left: 53vw;
+    }
+}
+
+@media (min-width: 900px) {
+    .background-image-overlay img {
+        height: 40vw;
+        top: -9rem;
+        left: 53vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .background-image-overlay img {
+        height: 48vw;
+        top: -15rem;
+        left: 55vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .background-image-overlay img {
+        height: 45vw;
+        top: -15rem;
+        left: 55vw;
+    }
+}
+
+@media (min-width: 1142px) {
+    .background-image-overlay img {
+        height: 34vw;
+        top: -11rem;
+        left: 61vw;
+    }
+}
 
 .background-image-overlay img {
     position: absolute;
-    height: 32%;
-    top: 7rem;
-    left: 7rem;
+    z-index: 2;
 }
 
 /* 3.2 ------------------------ MAIN CONTAINER BLOCK ---------------- */
 .main-container {
     background-color: #EDEDED;
+    padding-top: 3.25rem;
+}
+
+.deal-container {
+    background-color: #fff;
 }
 
 /* 4.0 ------------------------ FOOTER ----------------------------- */
