@@ -12,7 +12,11 @@
 */
 
  /* 1.0 ----------------------- GLOBAL ------------------------------ */
-a {
+html {
+    font-family: 'Lato';
+}
+
+ a {
   text-decoration: none;
 }
 
@@ -60,6 +64,11 @@ button .navbar-toggler {
 
 /* 3.0 ------------------------ BUILDING BLOCKS ---------------------- */
 /* 3.1 ------------------------ HERO BLOCK --------------------------- */
+@media (min-width: 576px) {
+    .black-fri-hero {
+        margin-left: 0.625rem;
+    }
+}
 
 .hero {
     background-image: url('/Users/marynorthrup/workspace/SOUNDBOKS/assets/images/mountains1.jpg');
@@ -91,7 +100,6 @@ button .navbar-toggler {
 
 .black-fri-hero {
     background: linear-gradient(#FD0202, rgba(253, 2, 2, 0));
-    margin-left: 0.625rem;
 }
 
 .black-fri-text {
@@ -189,10 +197,24 @@ button .navbar-toggler {
 .main-container {
     background-color: #EDEDED;
     padding-top: 3.25rem;
+    padding-bottom: 6.25rem;
 }
 
 .deal-container {
     background-color: #fff;
+    padding-bottom: 2.25rem;
+    margin: .635rem;
+}
+
+.deal-title {
+    padding-top: 0.325rem;
+    font-weight: 800;
+    font-family: 'Lato';
+    font-size: 18px;
+}
+
+.deal-container img {
+    height: 20vw;
 }
 
 /* 4.0 ------------------------ FOOTER ----------------------------- */
