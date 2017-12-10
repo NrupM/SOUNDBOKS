@@ -228,8 +228,6 @@ button .navbar-toggler {
     font-family: 'Lato';
 }
 
-
-
 /* 3.3 ------------------------ MAIN CONTAINER BLOCK ---------------- */
 .main-container {
     background-color: #EDEDED;
@@ -292,17 +290,6 @@ button .navbar-toggler {
 .products .item .content-box .new-price {
   color: #f00;
   font-size: 18px;
-}
-
-.products .item .content-box ul li {
-  /* list-style-type: square;
-  list-style: inside; */
-  font-size: 12px;
-  font-family: 'Lato';
-}
-
-.products .item .content-box ul {
-    -webkit-padding-start: 10px
 }
 
 .products .item .content-box div {
