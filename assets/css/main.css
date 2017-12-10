@@ -113,7 +113,7 @@ button .navbar-toggler {
 }
 
 .hero-title {
-    font-family: 'League Spartan';
+    font-family: 'League Spartan', 'Lato';
     font-style: bold;
     font-size: 48px;
     line-height: 60px;
@@ -218,9 +218,17 @@ button .navbar-toggler {
 }
 
 /* 3.2 ------------------------ COUNTDOWN ---------------------------- */
-.countdown {
+#countdown {
     display: inline-block;
+    background: linear-gradient(135deg, #4bffa0, #65ffff);
+    padding: 8px;
+    color: #000;
+    font-weight: 650;   
+    font-size: 16px;
+    font-family: 'Lato';
 }
+
+
 
 /* 3.3 ------------------------ MAIN CONTAINER BLOCK ---------------- */
 .main-container {
