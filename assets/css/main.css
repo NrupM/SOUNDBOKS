@@ -16,8 +16,26 @@ html {
     font-family: 'Lato';
 }
 
- a {
+a {
   text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+a:link {
+    color:#000;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active {
+    color: #000;
 }
 
 ul,
@@ -210,8 +228,8 @@ button .navbar-toggler {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* width: 100vw; */
   max-width: 1400px;
+  color: #000;
 }
 
 .products .item {
