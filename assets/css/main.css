@@ -38,12 +38,12 @@ a:focus {
 nav {
     background-color: #000;
     color: white;
-    height: 35px;
+    height: 50px;
 }
 
 .navbar-brand img {
     color: #fff;
-    height: 20px;
+    height: 30px;
 }
 
 .nav-link {
@@ -116,7 +116,7 @@ button .navbar-toggler {
 /* 3.1.a ---------------------- HERO IMG OVERLAY -------------------- */
 @media (min-width: 0px) and (max-width: 499px) {
     .background-image-overlay img {
-        height: 57vw;
+        height: 66vw;
         top: -2rem;
         left: 45vw;
     }
@@ -200,15 +200,14 @@ button .navbar-toggler {
     padding-bottom: 6.25rem;
 }
 
-
 .products {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* width: 100vw;
-  max-width: 1000px; */
+  /* width: 100vw; */
+  max-width: 1400px;
 }
 
 .products .item {
@@ -263,7 +262,7 @@ button .navbar-toggler {
 
 .products .item .content-box img.small-image {
   width: 50px;
-  height: 5s0px;
+  height: 50px;
 }
 
 /* 4.0 ------------------------ FOOTER ----------------------------- */
