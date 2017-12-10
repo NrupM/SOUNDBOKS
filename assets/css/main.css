@@ -7,7 +7,8 @@
 3.0 --- BUILDING BLOCKS
     3.1 --- HERO BLOCK
     3.1.a - HERO IMG OVERLAY BLOCK
-    3.2 --- MAIN CONTAINER BLOCK
+    3.2 --- COUNTDOWN
+    3.3 --- MAIN CONTAINER BLOCK
 4.0 --- FOOTER
 */
 
@@ -133,6 +134,7 @@ button .navbar-toggler {
 .hero-text  p {
     margin-top: 0.625rem;
     font-style: normal;
+    font-family: 'Lato';
 }
 
 /* 3.1.a ---------------------- HERO IMG OVERLAY -------------------- */
@@ -215,7 +217,12 @@ button .navbar-toggler {
     z-index: 2;
 }
 
-/* 3.2 ------------------------ MAIN CONTAINER BLOCK ---------------- */
+/* 3.2 ------------------------ COUNTDOWN ---------------------------- */
+.countdown {
+    display: inline-block;
+}
+
+/* 3.3 ------------------------ MAIN CONTAINER BLOCK ---------------- */
 .main-container {
     background-color: #EDEDED;
     padding-top: 3.25rem;
@@ -295,7 +302,7 @@ button .navbar-toggler {
     font-size: 12px;
 }
 
-p {
+.main-container p {
     font-size: 12px;
     font-family: 'Lato';
     margin-bottom: 10px;
@@ -305,4 +312,9 @@ p {
 .footer {
     background-color: #333333;
     color: #fff;
+    align-content: center;
+}
+
+.footer a:link {
+    color: #00c0ff;
 }
