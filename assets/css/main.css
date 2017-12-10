@@ -207,7 +207,7 @@ button .navbar-toggler {
 @media (min-width: 1142px) {
     .background-image-overlay img {
         height: 25vw;
-        top: -11rem;
+        top: -12rem;
         left: 45vw;
     }
 }
@@ -312,9 +312,29 @@ button .navbar-toggler {
 .footer {
     background-color: #333333;
     color: #fff;
-    align-content: center;
+
 }
 
 .footer a:link {
     color: #00c0ff;
 }
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.social-links i {
+    padding: 7px;
+}
+
+.copyright {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+      
